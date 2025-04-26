@@ -14,23 +14,23 @@ Este repositório contém a resolução do desafio técnico envolvendo criação
 
 ### 1. Pasta: `1_criacao_e_populacao_banco_de_dados`
 Contém os scripts para criação do banco de dados e inserção de dados fictícios:
-- `1_criacao_banco_dados_e_tabelas.sql` -> Cria o banco de dados `systock` e as tabelas (`venda`, `pedido_compra` e `entradas_mercadoria`);
-- `2_populando_tabelas.sql` -> Popula as tabelas com dados fictícios para permitir o retorno nas consultas realizadas na pasta `2_consultas_parte_1`.
+- `1_criacao_banco_dados_e_tabelas.sql` → Cria o banco de dados `systock` e as tabelas (`venda`, `pedido_compra` e `entradas_mercadoria`);
+- `2_populando_tabelas.sql` → Popula as tabelas com dados fictícios para permitir o retorno nas consultas realizadas na pasta `2_consultas_parte_1`.
 
 ---
 
 ### 2. Pasta: `2_consultas_parte_1`
 Contém todas as consultas solicitadas na Parte 1 do desafio, separadas em arquivos individuais e um arquivo consolidado:
-- `1_consumo_produto_e_mes.sql` -> Consulta 1.1
-- `2_produtos_requisicao_pendente.sql` -> Consulta 1.2
-- `3_produtos_nao_consumidos_nao_recebidos.sql` -> Consulta 1.3
-- `4_consultas_part_1_consolidadas.sql` -> Todas as consultas da Parte 1 em um único arquivo.
+- `1_consumo_produto_e_mes.sql` → Consulta 1.1
+- `2_produtos_requisicao_pendente.sql` → Consulta 1.2
+- `3_produtos_nao_consumidos_nao_recebidos.sql` → Consulta 1.3
+- `4_consultas_part_1_consolidadas.sql` → Todas as consultas da Parte 1 em um único arquivo.
 
 ---
 
 ### 3. Pasta: `3_consulta_parte_2`
 Contém a consulta solicitada na Parte 2 do desafio:
-- `1_transformacao_de_dados.sql` -> Realiza as transformações pedidas (concatenação de campos, formatação de datas e filtragem).
+- `1_transformacao_de_dados.sql` → Realiza as transformações pedidas (concatenação de campos, formatação de datas e filtragem).
 
 ---
 
