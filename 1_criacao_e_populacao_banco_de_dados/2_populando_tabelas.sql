@@ -12,7 +12,7 @@ VALUES
 (102, '2025-02-03', 1, '1002', 'Sabonete', 502, 15, 1, '2025-02-07', 10, 5, 5.50, 301),
 (103, '2025-02-07', 1, '1003', 'Papel A4', 503, 30, 1, '2025-02-10', 0, 30, 12.00, 302),
 (104, '2025-02-10', 1, '1004', 'Álcool Gel', 504, 5, 1, NULL, 0, 5, 18.00, 303),
-(105, '2025-02-15', 1, '1005', 'Esponja', 0, 12, 1, NULL, 0, 12, 2.50, 300); -- Ordem_compra = 0 -> não recebido
+(105, '2025-02-15', 1, '1005', 'Esponja', 0, 12, 1, NULL, 0, 12, 2.50, 300);
 
 -- Populando a tabela de entradas_mercadoria
 INSERT INTO public.entradas_mercadoria (ordem_compra, data_entrada, nro_nfe, item, produto_id, descricao_produto, qtde_recebida, filial_id, custo_unitario)
