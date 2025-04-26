@@ -1,0 +1,21 @@
+-> O arquivo "todas_as_consultas_consolidadas.sql" possui todas as consultas do case, a criação do banco de dados
+   criação das tabelas, população do banco de dados e as consultas solicitadas na parte 1 e na parte 2. Resolvi
+   criar esse arquivo .sql com tudo junto caso ache mais prático. Mas abaixo está explicando tudo separadamente
+
+-> Na pasta "1_criacao_e_populacao_banco_de_dados" há duas consultas:
+    - 1_criacao_banco_dados_e_tabelas.sql -> que cria o banco de dados e as tabelas dentro dele;
+    - 2_populando_tabelas.sql -> que popula o banco de dados com dados fictício para haver um retorno
+                                 ao rodas as consultas da pasta "2_consultas_parte_1";
+
+-> Na pasta "2_consultas_parte_1" possui todas as consultas da primeira parte do desafio técnico,
+   cada uma separadas em um arquivo sql diferente e um arquivo sql com todas as consultas da Parte 1
+   consolidadas:
+    - 1.1 -> 1_consumo_produto_e_mes.sql
+    - 1.2 -> 2_produtos_requisicao_pendente.sql
+    - 1.3 -> 3_produtos_nao_consumidos_nao_recebidos.sql
+    - Consultas consolidadas: 4_consultas_part_1_consolidadas.sql
+
+-> Na pasta "3_consulta_parte_2" tem apenas uma consolta que é a consulta da "Parte 2 - Transformação de Dados"
+   Coloquei em uma pasta separada por questão de organização. Então essa pasta só possui um arquivo .sql:
+    - 1_transformacao_de_dados.sql -> Faz as transformações solicitadas nos passos 1, 2 e 3 da Parte 2 do
+                                      desafio técnico.
