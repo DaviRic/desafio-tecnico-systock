@@ -33,6 +33,10 @@ Contém a consulta solicitada na Parte 2 do desafio:
 - `1_transformacao_de_dados.sql` → Realiza as transformações pedidas (concatenação de campos, formatação de datas e filtragem).
 
 ---
+### 4. Pasta: `4_validacao_cliente_parte_3`
+Contém o arquivo .txt com as respostas para as perguntas da etapa de validação com o cliente:
+- `4_validacao_cliente_parte_3.txt` → Arquivo com as respostas para as três perguntas feitas na etapa de validação com o cliente  
+---
 
 ## Observação
 O script de inserção de dados fictícios foi criado com o objetivo de permitir o teste e a visualização prática dos resultados das consultas solicitadas.
