@@ -1,0 +1,36 @@
+
+1 - Quais seriam os principais pontos que você validaria com o cliente?
+    - Confirmar se os dados estão completos: verificar com o cliente se temos todos os dados de pedidos, 
+      entradas de mercadoria e vendas sem faltar nada.
+    
+    - Checar se as informações estão corretas: conferir alguns exemplos de produtos para ver se as quantidades
+      e valores batem com os dados que o cliente tem no sistema.
+    
+    - Validar os calculos e regras aplicadas: mostrar pro cliente que as regras foram aplicadas corretamente
+      (como a regra de considerar apenas produtos com mais de 10 unidades pedidas).
+
+    - Testar a apresentação dos dados: ver se os dados estão aparecendo certindo (descrição + pedido), se as
+      datas estão no formato certo e se tá fácil de entender o que cada coluna representa.
+
+    - Deixar o cliente testar: disponibilizar para o cliente os scripts e explicar para ele como ele faz
+      pra rodar tudo sozinho caso ele queira. Isso vai mostrar que o projeto é confiável e bem documentado
+
+2 - Quais técnicas utilizaria para garantir a exatidão e a precisão dos dados?
+    - Comparação com fontes oficiais: conferir os dados que puxamos com os registros oficiais do cliente.
+
+    - Revisão de regras aplicadas: conferir se todas as regras de negócio combinadas foram aplicadas corretamente,
+      como considerar apenas produtos requisitados mais de 10 vezes.
+    
+    - Validação de formato: validar se todos os campos (como data, nomes de produtos) estão no formato esperado.
+    
+    - Rodar simulações: fazer simulações de consultas alterando filtros e parâmetros para ver como o sistema se
+      comporta em diferentes cenários. 
+    
+3 - Quais consultas você deixaria prontas para usar na reunião de validação?
+    - Consulta geral de consumo: uma consulta que traga o consumo de todos os produtos, mostrando o tatal consumido
+      validando os números principais.
+    
+    - Consulta de datas de pedidos e entrega: para validar se a data dos pedidos está no formato (DD/MM/YYYY).
+    
+    - Consulta de quantidade total requisitada: mostrar apenas produtos que foram requisitados mais de 10 vezes,
+      já que foi uma regra de negócio acordada.
